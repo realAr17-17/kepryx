@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <script src="https://kit.fontawesome.com/b28ac803dc.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
+    <head>
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Russo+One&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/b28ac803dc.js" crossorigin="anonymous"></script>
+        <title>KEPRYX SERVER</title>
+    </head>
+    <body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i> 
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">SERVERS</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">ABOUT</a></li>
+            </ul>
+        </div>
 
-
-</style>
-</head>
-<body style="font-family:Verdana;background-color: #1f1f1f;">
-
-  <div class = "diskobuton">
-    <div style="margin-top: 60px;margin-right: 20px;"><a href="#" class="discobutton"><i class="fab fa-discord"></i>  JOIN OUR SERVER</a></div>
-    </div>
-<div style="background-color:#f1f1f1;padding:15px;" class="headbg">
-  <h1 style="color:white ;font-size:75px;font-family:kremlin";><img src="esard1.png" alt="SERVER ICON ">     KEPRYX</h1>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+<div class="text-box">
+    <h1>KEPRYX</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget dapibus purus. Mauris gravida eleifend magna sit amet lacinia. In sem enim, aliquet a dapibus quis, tempus sit amet sem. Mauris sit amet massa vitae est scelerisque interdum eu sit amet ipsum. Quisque a dignissim tellus. Morbi commodo risus eget tempor vehicula. Cras varius facilisis tellus, at sagittis ligula ullamcorper in. Fusce fermentum et quam blandit lacinia. Ut maximus ullamcorper lectus, non cursus augue egestas et. Integer eu mauris quam. Nam orci metus, iaculis rhoncus justo non, laoreet fringilla massa. Donec fermentum vestibulum scelerisque.</p>
+    <a class="info-btn"href="">Click here to know more</a>
 </div>
-</section>
 
+</section>
 <script>
 
     var navLinks= document.getElementById("navLinks");
