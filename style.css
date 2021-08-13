@@ -11,10 +11,11 @@
     width: 100%;
     left: 0px;
     top: 0px;
+    background-image: url(images/bg\ main.png);
     background-position: center;
     background-size: cover;
     position: relative;
-    background-image: url(images/bg\ main.png)
+    
 
 }
 
