@@ -51,7 +51,7 @@ nav img{
 
 .nav-links ul li::after{
     content: '';
-    width: 100%;
+    width: 0%;
     height: 2px;
     background-image: linear-gradient(to right, #1076fc , #10d9fc);
     display: block;
